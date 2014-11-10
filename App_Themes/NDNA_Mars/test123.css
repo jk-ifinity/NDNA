@@ -1,0 +1,32 @@
+﻿.test {
+    background: red;
+}
+
+img.image-align-left {
+    float: left;
+    padding-right: 10px;
+}
+
+img.image-align-right {
+    float: right;
+    padding-left: 10px;
+}
+
+ul.blue-list {
+    list-style-type: none;
+}
+
+ul.sky-blue-list-with-arrow {
+    list-style-type: none;
+}
+
+ul.sky-blue-list-no-arrow {
+    list-style-type: none;
+    margin-top: 1.563em;
+}
+
+.section-type {
+    font: normal 1.3em/2.3em 'Open Sans';
+    color: #193B78;
+    display: block;
+}
