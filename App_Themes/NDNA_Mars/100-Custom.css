@@ -661,29 +661,78 @@ color-stop(0%, white), color-stop(35%, white), color-stop(100%, #F7F8F8));
 background: -moz-linear-gradient(top, white 0%, white 80%, #BFC2C7 130%);
 min-height: 170px;
 }
-.news_advertising
-{
-width:150px;
-margin:0px 0px 0px 80px;
+
+.PrimaryContent {
+    padding: 0 20px;
 }
-.news_head
+
+.menu_left
 {
-border-bottom:1px solid #B7B7B7;
-color:#043D84;
-font-weight:900;
-font-size:24px;
-line-height:50px;
+	border-radius:20px;
+	width:252px;
+    background-color: #043D84;
 }
-.News_contentarea
-{
-width: 495px;
-margin:0px 0px 0px 35px;
+.menu_simple ul {
+    margin: 0; 
+	width:248px;
+	list-style-type:none;
+	list-style-position: inside;
+	padding:10px 1px 0px 0px;
 }
-.news_content
-{
-border-bottom:4px dotted #AAB6CE;
-padding-bottom:20px;
+
+.menu_simple ul li a {
+    	text-decoration: none;
+    	color: white; 
+    	padding: 10px 0 10px 35px;
+	border-bottom:2px solid #ffffff;
+    	display:block;
+	background-image:url(images/news_naviicon.jpg);
+	background-repeat:no-repeat;
+	background-position: left center;
+	font-size: 15px;
+
 }
+ 
+.menu_simple ul li a:visited {
+    color: white;
+}
+
+ul.simple-menu {
+    margin: 0;
+    list-style-type:none;
+    list-style-position: inside;
+    padding:10px 1px 0px 0px;
+}
+
+ul.simple-menu li {
+    background: #043D84 url(images/news_naviicon.jpg) no-repeat left center;
+}
+
+ul.simple-menu li:first-child {
+    border-radius: 15px 15px 0 0;
+}
+
+ul.simple-menu li:last-child {
+    border-radius: 0 0 15px 15px;
+}
+
+ul.simple-menu li a {
+    color: white; 
+    padding: 10px 0 10px 35px;
+    border-bottom: 2px solid #ffffff;
+    display:block;
+    font-size: 1.1em;
+}
+
+ul.simple-menu li a:hover {
+    background: red;
+}
+
+ul.simple-menu li a:visited {
+    color: white;
+}
+
+
 /*ends*/
 /*Training*/
 
@@ -837,9 +886,8 @@ div#ctl00_TemplateBody_WebPartManager1_gwpciNewQueryMenuCommon_ciNewQueryMenuCom
 .EventsList .TitleBarCaption, 
 #ctl00_TemplateBody_WebPartManager1_gwpciLatestNews_ciLatestNews_ListTitle_Head, 
 #ctl00_TemplateBody_WebPartManager1_gwpciLatestNews_ciLatestNews_ListTitle_Head {
-    padding: 0; 
-    width: 177px;
-margin-bottom: 10px;
+    padding: 0;
+    margin-bottom: 10px;
     margin-left: 0;
     padding: 0 0 5px;
 }
@@ -1061,6 +1109,11 @@ width:515px;
 
 .summary-list .ContentItemContainer {
     border-bottom: 1px solid #aaa;
+    padding-bottom: 1.563em
+}
+
+.news-list .ContentItemContainer {
+    border-bottom: 3px dotted #AAB6CE;
     padding-bottom: 1.563em
 }
 

@@ -1,5 +1,12 @@
-﻿.test {
-    background: red;
+﻿.headline {
+    padding-bottom: 0.5em;
+    border-bottom: 1px solid #ccc;
+}
+
+.section-type {
+    font: normal 1.3em/2.3em 'Open Sans';
+    color: #193B78;
+    display: block;
 }
 
 img.image-align-left {
@@ -10,6 +17,12 @@ img.image-align-left {
 img.image-align-right {
     float: right;
     padding-left: 10px;
+}
+
+ul.simple-menu
+{
+    border-radius:20px;
+    width: 100%;
 }
 
 ul.blue-list {
@@ -23,10 +36,4 @@ ul.sky-blue-list-with-arrow {
 ul.sky-blue-list-no-arrow {
     list-style-type: none;
     margin-top: 1.563em;
-}
-
-.section-type {
-    font: normal 1.3em/2.3em 'Open Sans';
-    color: #193B78;
-    display: block;
 }
